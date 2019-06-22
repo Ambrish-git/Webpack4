@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Hello from "../../shared/Hello/index.jsx"
-import styles from "./home.css";
+import Hello from "../../shared/Hello/"
+import styles from "./home";
 
 class Welcome extends React.Component {
   render() {
