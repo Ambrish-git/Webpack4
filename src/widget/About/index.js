@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Hello from "../../shared/Hello/index.jsx";
+import styles from "./about.css";
 
 class Welcome extends React.Component {
   render() {
-    return <h1>Hello World from About??</h1>;
+    console.log(NODE_ENV+ ENVIRONMENT_VAR);
+    return <div><Hello/> from About!!</div>;
   }
 }
 
